@@ -1,5 +1,17 @@
-# GyverLamp2
+# GyverLamp2-kaef 
+это форк оригинального проекта GyverLamp2 от AlexGyver
 ![Logo](/docs/banner2.png)
+
+--------------
+## Прошивка NodeMCU v.1.0
+* Инструменты / Плата NodeMCU 1.0 (ESP-12E Module) в оригинальном проекте была рекомендация выбирать плату "Плата Generic ESP8266", но у меня не прошилось
+* Инструменты / Flash Size 4MB (FS:2MB OTA)
+* CPU Frequency / 160 MHz (рекомендуется для стабильности светомузыки!!!)
+* При прошивке с других прошивок лампы поставить: Инструменты/Erase Flash/All Flash Contents
+* ESP core 2.7.4+ http://arduino.esp8266.com/stable/package_esp8266com_index.json
+* FastLED 3.4.0+ https://github.com/FastLED/FastLED/releases
+
+---------------
 
 ## Отличия от первой версии GyverLamp:
 - Возможность объединять устройства в группы с синхронизированными эффектами и их автоматическим переключением
