@@ -76,7 +76,7 @@ struct Config {
   byte maxCur = 5;        // макс ток (мА/100)
   byte workFrom = 0;      // часы работы (0,1.. 23)
   byte workTo = 0;        // часы работы (0,1.. 23)
-  byte matrix = 1;        // тип матрицы 1.. 8
+  byte matrix = 8;        // тип матрицы 1.. 8
 
   int16_t length = 16;    // длина ленты
   int16_t width = 16;     // ширина матрицы
